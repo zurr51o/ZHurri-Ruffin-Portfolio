@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" contents="IE edge">
+    <meta name="viewport" content="width-device-width, intial-scale=1.0">
+<title>Zhuri Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!--    divs divide content in your website -->
+<!--    id indivisually allow you to edit tags like h1's and Paragraph tags -->
+<div id = "header">
+    <div class=container>
+        <nav>
+            <img src="images/Zhurilogo.jpg" class=logo>
+            <ul>
+            <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+        <p>UI/UX Designer</p>
+        <h1> Hi, Im <span>Zhuri</span><br> I am from Pinole, California </h1>
+        </div>
+    </div>
+    </div>
+
+<!--about-->
+<div id = "about">
+<div class = "container">
+<div class = "row">
+<div class = "about-col-1">
+<img src = "images/abtzhurri.jpg">
+    </div>
+    <div class="about-col-2">
+    <h1 class = "sub-title">about me</h1>
+    <p>Zhuri Ruffin, a Pinole, California native, is a multifaceted individual with a passion for video games, sports, and delectable food. His days are filled with thrilling virtual adventures, heart-pounding games on the field, and savoring delightful culinary delights. Embracing a diverse range of interests, Zhuri's joy in life shines through in everything he does.</p> 
+    
+        <div class = "tab-titles">
+        <p class = "tab-links active-link" onlick="opentap('skills')">skills</p>
+        <p class = "tab-links active-link" onlick="opentab('experience')">experience</p>
+        <p class = "tab-links active-link" onlick="opentap('ventures')">ventures</p>
+        </div>
+    <div class = "tab-contents active-tab" id = "skills">
+      <ul>
+          <li><span>something</span><br>morestuff</li>
+        </ul>  
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    
+<!--    Javascript-->
+
+        <script>
+            function opentab(tabId){
+                const tabContents = document.querySelectorAll('.tab-contents');
+                for (const tab of tabContents) {
+                    tab.classList.remove('active-tab')
+                    
+                    }
+               
+                     const tabContents = document.getElementById(tabId);
+                    if (selectedTab) {
+                        selectedTab.classList.add('active');
+                    
+                }
+            }
+    </script>
+    
+    
+    
+    
+    
+<!--  Services -->
+    
+        <div class="services">
+        <div class="container"> 
+            <h1 class="dubtitle">MyServices</h1>
+            <div class="services-list">
+                </div>
+                    <i class="fas fa-crop"></i>
+            <h2>Instagram</h2>
+            <p>@zurr51o</p>
+             <a href="https://www.instagram.com/">Learn more</a>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            </div>
+    </div>
+    
+    
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
